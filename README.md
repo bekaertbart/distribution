@@ -43,3 +43,27 @@ Add to appsettings to set options:
 </table>
 
 These are read once upon start of application
+
+# version history
+
+<table>
+	<tr>
+		<td>
+			1.1
+		</td>
+		<td>
+			* Added a daily log with users that were greeted
+		</td>
+	</tr>
+	<tr>
+		<td>
+			1.0
+		</td>
+		<td>
+			First version
+			* Connects to Twitch IRC chat, using username and OAuth token
+			* Sends a greeting to users that say something in chat for the first time
+			* Using settings in config file
+		</td>
+	</tr>
+</table>
