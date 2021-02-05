@@ -49,6 +49,14 @@ These are read once upon start of application
 <table>
 	<tr>
 		<td>
+			1.2
+		</td>
+		<td>
+			<ul><li>At start, read the log of today and add those to the greeted chatters</li></ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
 			1.1
 		</td>
 		<td>
