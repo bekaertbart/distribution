@@ -40,6 +40,14 @@ Add to appsettings to set options:
 		<td>delay</td>
 		<td>delay to send messages in seconds</td>
 	</tr>
+	<tr>
+		<td>timerCommand</td>
+		<td>text to be sent on timer elapse</td>
+	</tr>
+	<tr>
+		<td>timerPeriod</td>
+		<td>time in seconds to send timerCommand</td>
+	</tr>
 </table>
 
 These are read once upon start of application
@@ -47,6 +55,14 @@ These are read once upon start of application
 # version history
 
 <table>
+	<tr>
+		<td>
+			1.3
+		</td>
+		<td>
+			<ul><li>Added a timer sending text at set interval</li><li>Chatlog is now saved in daily files (as opposed to one file per streamer)</li></ul>
+		</td>
+	</tr>
 	<tr>
 		<td>
 			1.2
