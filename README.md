@@ -60,7 +60,7 @@ These are read once upon start of application
 			1.3
 		</td>
 		<td>
-			<ul><li>Added a timer sending text at set interval</li><li>Chatlog is now saved in daily files (as opposed to one file per streamer)</li></ul>
+			<ul><li>Added a timer sending text at set interval if file "command.yes" exists. Rename to keep the command from being sent</li><li>Chatlog is now saved in daily files (as opposed to one file per streamer)</li></ul>
 		</td>
 	</tr>
 	<tr>
